@@ -34,7 +34,7 @@
     "javascript": "javascriptreact"
   },
   "editor.snippetSuggestions": "top",
-  // cursor 
+  // cursor
   "editor.cursorSmoothCaretAnimation": true,
   "editor.cursorBlinking": "expand",
   // config related to code formatting
@@ -66,7 +66,7 @@
     "terminal.foreground": "#A89984",
     "terminalCursor.background": "#A89984",
     "terminalCursor.foreground": "#A89984",
-    "terminal.ansiBlack": "#1D2021",
+    "terminal.ansiBlack": "#1D202I",
     "terminal.ansiBlue": "#0D6678",
     "terminal.ansiBrightBlack": "#665C54",
     "terminal.ansiBrightBlue": "#0D6678",
