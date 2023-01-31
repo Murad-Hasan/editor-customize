@@ -1,7 +1,5 @@
-# editor-customize
-  ```{
-  // editor
-  "editor.fontSize": 20,
+// editor
+{
   "editor.fontFamily": "'Cascadia Code', Consolas, 'Courier New', monospace",
   "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'zero', 'onum'",
   "editor.tokenColorCustomizations": {
@@ -24,6 +22,32 @@
         ],
         "settings": {
           "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": [
+          "variable.other.property.js",
+          "keyword.control.trycatch.js",
+          "keyword.control.catch.js"
+        ],
+        "settings": {
+          "foreground": "#92dbea"
+        }
+      },
+      {
+        "scope": [
+          "string.quoted.single.js",
+          "keyword.control.conditional.js",
+          "keyword.operator.delete.js"
+        ],
+        "settings": {
+          "foreground": "#d1d587"
+        }
+      },
+      {
+        "scope": ["storage.type.js"],
+        "settings": {
+          "foreground": "#dc7d4a"
         }
       }
     ]
@@ -56,7 +80,7 @@
   },
   "eslint.alwaysShowStatus": true,
   //terminal
-  "terminal.integrated.fontSize": 16,
+  "terminal.integrated.fontSize": 17,
   "terminal.integrated.fontWeight": "normal",
   "terminal.integrated.fontFamily": "Hack NF",
   "workbench.colorTheme": "Dracula Soft",
@@ -89,24 +113,28 @@
     "*": true,
     "yaml": false,
     "plaintext": false,
-    "markdown": true
+    "markdown": true,
+    "javascript": false
   },
   "turboConsoleLog.includeFileNameAndLineNum": false,
   "turboConsoleLog.logMessagePrefix": "",
   "turboConsoleLog.delimiterInsideMessage": "",
   "git.enableSmartCommit": true,
-  "cSpell.userWords": ["Hasan", "Mahamud", "murad", "tailwindcss"],
+  "cSpell.userWords": ["Hasan", "Mahamud", "murad", "tailwindcss", "এখান"],
   "typescript.format.insertSpaceAfterTypeAssertion": true,
   "editor.minimap.enabled": false,
   "editor.tabSize": 2,
   "files.autoSave": "afterDelay",
   "explorer.confirmDelete": false,
-  "svelte.enable-ts-plugin": true,
-  "svelte.plugin.svelte.note-new-transformation": false,
-  "[svelte]": {
-    "editor.defaultFormatter": "svelte.svelte-vscode"
-  },
   "editor.codeLensFontFamily": "'Cascadia Code', Consolas, 'Courier New', monospace",
-  "editor.fontWeight": "normal"
+  "editor.fontWeight": "normal",
+  "editor.suggest.localityBonus": true,
+  "editor.suggest.preview": true,
+  "editor.suggest.shareSuggestSelections": true,
+  "editor.smoothScrolling": true,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": true,
+  "editor.fontVariations": false,
+  "editor.fontSize": 21,
+  "window.zoomLevel": -1
 }
-```
